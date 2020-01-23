@@ -237,10 +237,6 @@ public class StyleConstants {
 
 		URL url = StyleConstants.class.getResource("rgb.properties");
 
-		if (url == null)
-			throw new RuntimeException(
-					"corrupted graphstream.jar ? the org/miv/graphstream/ui/graphicGraph/rgb.properties file is not found");
-
 		Properties p = new Properties();
 
 		try {
